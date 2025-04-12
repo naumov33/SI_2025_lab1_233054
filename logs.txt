@@ -1,0 +1,17 @@
+* 80fc433 (origin/8-mark-a-task-as-completed-by-name, 8-mark-a-task-as-completed-by-name) Implement issue 8
+| * 648a933 (origin/5-filter-tasks-by-category, 5-filter-tasks-by-category) Implement issue 5
+|/
+| * fd28185 (origin/2-find-all-completed-tasks, 2-find-all-completed-tasks) Implement issue 2
+|/
+* 307036b (HEAD -> master, origin/master, origin/HEAD) Add starter code
+* 03cf625 Initial commit
+
+Dancho@DESKTOP-PIT4C28 MINGW64 ~/Downloads/SI_2025_lab1_233054 (master)
+$ git log --oneline --graph --all
+* 80fc433 (origin/8-mark-a-task-as-completed-by-name, 8-mark-a-task-as-completed-by-name) Implement issue 8
+| * 648a933 (origin/5-filter-tasks-by-category, 5-filter-tasks-by-category) Implement issue 5
+|/
+| * fd28185 (origin/2-find-all-completed-tasks, 2-find-all-completed-tasks) Implement issue 2
+|/
+* 307036b (HEAD -> master, origin/master, origin/HEAD) Add starter code
+* 03cf625 Initial commit

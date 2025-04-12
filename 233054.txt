@@ -1,0 +1,10 @@
+Prvo izvrsiv git fetch origin.
+Potoa go implementirav kodot posebno vo sekoj branch.
+Ova se komandite koi gi koristev za site tri granki.
+git checkout 8-mark-a-task-as-completed-by-name
+nano SI2025Lab1Main.java
+git add .
+git commit -m "Implement issue 8
+git push origin 8-mark-a-task-as-completed-by-name
+
+Potoa izvrshiv merge pull request preku GitHub so cel da se spojat issue brenchovite so master grankata.
