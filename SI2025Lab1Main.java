@@ -69,14 +69,18 @@ class TaskManager {
 
     // 2. Find all completed tasks
     public List<Task> getCompletedTasks() {
-        // TODO: Implement logic to return completed tasks
-        return new ArrayList<>();
+        List<Task> completedTasks = new ArrayList<>();
+        for (Task task : tasks) {
+            if (task.isCompleted()) {
+                completedTasks.add(task);
+            }
+        }
+        return completedTasks;
     }
 
     // 3. List tasks sorted by name
     public void sortTasksByName() {
-        // TODO: Implement sorting logic
-    }
+        // TODO: Implement sorting logic    }
 
     // 4. Sort tasks by priority
     public void sortTasksByPriority() {
@@ -85,8 +89,13 @@ class TaskManager {
 
     // 5. Filter tasks by category
     public List<Task> filterByCategory(String category) {
-        // TODO: Implement filtering logic
-        return new ArrayList<>();
+        List<Task> filtered = new ArrayList<>();
+        for (Task task : tasks) {
+            if (task.getCategory().equalsIgnoreCase(category)) {
+                filtered.add(task);
+            }
+        }
+        return filtered;
     }
 
     // 6. Find the highest-priority unfinished task
@@ -103,7 +112,11 @@ class TaskManager {
 
     // 8. Mark a task as completed by name
     public void markTaskCompleted(String name) {
-        // TODO: Implement completion logic
+        for (Task task : tasks) {
+            if (task.getName().equals(name)) {
+                task.complete();
+            }
+        }
     }
 
     // 9. Mark all tasks in a category as completed
